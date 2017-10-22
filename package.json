@@ -1,0 +1,22 @@
+{
+  "name": "charles_renk_personal_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlyrenk/Charles_Renk_Personal_Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charlyrenk/Charles_Renk_Personal_Website/issues"
+  },
+  "homepage": "https://github.com/charlyrenk/Charles_Renk_Personal_Website#readme",
+  "dependencies": {
+    "angular": "^1.6.6"
+  }
+}
