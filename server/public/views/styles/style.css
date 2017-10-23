@@ -41,12 +41,10 @@
 .projectDiv{
     margin: 20px
 }
-.projectDialogue{
-    background-color: white;
-    height: 400px;
-    width: 200px;   
-}
 
+md-dialog.projectDialog{
+    width: 80%;
+}
 body{
     max-width: 1200px;
     min-width: 1000px;
