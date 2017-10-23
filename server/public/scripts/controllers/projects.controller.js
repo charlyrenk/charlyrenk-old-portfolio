@@ -14,4 +14,15 @@ myApp.controller('ProjectController', ['$mdDialog', '$mdSidenav', '$location', f
             clickOutsideToClose: true
         })
     }
+    vm.showBelwin = function ($event) {
+        console.log('$event:', $event);
+        // vm.currentSpecimenQuestions (assign questions based on species element clicked)
+        $mdDialog.show({
+            targetEvent: $event,
+            controller: 'ProjectController',
+            controllerAs: 'sc',
+            templateUrl: './views/templates/belwin.html',
+            clickOutsideToClose: true
+        })
+    }
 }]);
