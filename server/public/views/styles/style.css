@@ -1,55 +1,72 @@
-#charlyPic{
+#charlyPic {
     width: 400px;
     margin: 40px;
 }
-#weGroceryPic{
+
+#weGroceryPic {
     height: 435px;
 }
 
-#navbar{
+#navbar {}
 
-}
-.subHead1{
+.subHead1 {
     font-family: 'Quicksand', sans-serif;
     font-size: 38px;
     margin: 2%;
 }
-.subHead2{
+
+.subHead2 {
     font-family: 'Quicksand', sans-serif;
     font-size: 25px;
     margin: 1%;
     min-height: 65px;
 }
-.subHead3{
+
+.subHead3 {
     font-family: 'Quicksand', sans-serif;
     font-size: 25px;
     margin: 1%;
 }
-.md-button.subHead2{
+
+.md-button.subHead2 {
     font-family: 'Quicksand', sans-serif;
     font-size: 25px;
     margin: 1%;
     text-transform: none;
     min-height: 74px;
-
-   
 }
-.homeParagraph{
+
+.homeParagraph {
     font-family: 'Quicksand', sans-serif;
     width: 70%;
     position: static;
 }
-#homeParagraphDiv{
+
+#homeParagraphDiv {
     margin-top: 33px;
 }
-.projectDiv{
+
+.projectDiv {
     margin: 20px
 }
 
-md-dialog.projectDialog{
+md-dialog.projectDialog {
     width: 80%;
 }
-body{
+
+body {
     max-width: 1200px;
     min-width: 1000px;
+}
+
+@media (max-width: 400px) {
+    body {
+        max-width: 400px;
+        min-width: 200px;
+    }
+    #charlyPic {
+     
+        width: 200px;
+        margin: 0px;
+    }
 }
