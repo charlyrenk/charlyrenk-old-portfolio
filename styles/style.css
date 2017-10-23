@@ -67,7 +67,6 @@ body {
     #charlyPic {
         width: 210px;
         margin-left: 46px;
-        position: absolute;
     }
     #weGroceryPic {
         height: 235px;
@@ -80,9 +79,6 @@ body {
     md-dialog.projectDialog {
         width: 70%;
     }
-    #homeParagraphDiv {
-        margin-top: 33px;
-        position: absolute;
-    }
+  
 }
 
