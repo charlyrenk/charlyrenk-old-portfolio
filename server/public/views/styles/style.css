@@ -19,7 +19,11 @@
     font-size: 25px;
     margin: 1%;
     min-height: 65px;
-
+}
+.subHead3{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    margin: 1%;
 }
 .md-button.subHead2{
     font-family: 'Quicksand', sans-serif;
