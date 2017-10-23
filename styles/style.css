@@ -79,6 +79,11 @@ body {
     md-dialog.projectDialog {
         width: 80%;
     }
+    .homeParagraph {
+        font-family: 'Quicksand', sans-serif;
+        width: 1000%;
+        position: static;
+    }
   
 }
 
