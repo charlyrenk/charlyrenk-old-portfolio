@@ -7,13 +7,13 @@ myApp.config(function($routeProvider, $locationProvider) {
   $routeProvider
     .when('/', {
       templateUrl: '/views/templates/home.html',
-      controller: 'UserController as uc',
-    }).when('/repos', {
+ 
+    }).when('/projects', {
       templateUrl: '/views/templates/projects.html',
-      controller: 'UserController as uc'
+     
     }).when('/contact', {
         templateUrl: '/views/templates/contact.html',
-        controller: 'UserController as uc'
+    
       });
 });
 
