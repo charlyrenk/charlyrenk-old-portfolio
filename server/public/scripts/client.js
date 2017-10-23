@@ -9,7 +9,9 @@ myApp.config(function($routeProvider, $locationProvider) {
       templateUrl: '/views/templates/home.html',
  
     }).when('/projects', {
-      templateUrl: '/views/templates/projects.html',
+      templateUrl: '/views/templates/projects.html',  
+      controller: 'ProjectController as pc',  
+      
      
     }).when('/contact', {
         templateUrl: '/views/templates/contact.html',

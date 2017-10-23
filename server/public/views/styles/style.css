@@ -19,6 +19,7 @@
     font-size: 25px;
     margin: 1%;
     min-height: 65px;
+
 }
 .md-button.subHead2{
     font-family: 'Quicksand', sans-serif;
@@ -26,6 +27,7 @@
     margin: 1%;
     text-transform: none;
     min-height: 74px;
+
    
 }
 .homeParagraph{
@@ -38,6 +40,11 @@
 }
 .projectDiv{
     margin: 20px
+}
+.projectDialogue{
+    background-color: white;
+    height: 400px;
+    width: 200px;   
 }
 
 body{
