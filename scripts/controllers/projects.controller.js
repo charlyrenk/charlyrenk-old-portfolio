@@ -10,7 +10,7 @@ myApp.controller('ProjectController', ['$mdDialog', '$mdSidenav', '$location', f
             targetEvent: $event,
             controller: 'ProjectController',
             controllerAs: 'sc',
-            templateUrl: './views/templates/we-grocery.html',
+            templateUrl: 'we-grocery.html',
             clickOutsideToClose: true
         })
     }
@@ -21,7 +21,7 @@ myApp.controller('ProjectController', ['$mdDialog', '$mdSidenav', '$location', f
             targetEvent: $event,
             controller: 'ProjectController',
             controllerAs: 'sc',
-            templateUrl: './views/templates/belwin.html',
+            templateUrl: 'belwin.html',
             clickOutsideToClose: true
         })
     }

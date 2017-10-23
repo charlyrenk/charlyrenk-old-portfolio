@@ -6,15 +6,15 @@ myApp.config(function($routeProvider, $locationProvider) {
 
   $routeProvider
     .when('/', {
-      templateUrl: '/views/templates/home.html',
+      templateUrl: 'home.html',
  
     }).when('/projects', {
-      templateUrl: '/views/templates/projects.html',  
+      templateUrl: 'projects.html',  
       controller: 'ProjectController as pc',  
       
      
     }).when('/contact', {
-        templateUrl: '/views/templates/contact.html',
+        templateUrl: 'contact.html',
     
       });
 });
