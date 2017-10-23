@@ -1,7 +1,9 @@
 #charlyPic{
     width: 400px;
     margin: 40px;
-
+}
+#weGroceryPic{
+    height: 435px;
 }
 
 #navbar{
@@ -10,7 +12,21 @@
 .subHead1{
     font-family: 'Quicksand', sans-serif;
     font-size: 38px;
-    margin: 3%;
+    margin: 2%;
+}
+.subHead2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    margin: 1%;
+    min-height: 65px;
+}
+.md-button.subHead2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    margin: 1%;
+    text-transform: none;
+    min-height: 74px;
+   
 }
 .homeParagraph{
     font-family: 'Quicksand', sans-serif;
@@ -19,6 +35,9 @@
 }
 #homeParagraphDiv{
     margin-top: 33px;
+}
+.projectDiv{
+    margin: 20px
 }
 
 body{
