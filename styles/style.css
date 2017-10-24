@@ -95,7 +95,8 @@ body {
     }
     .homeParagraph {
         font-family: 'Quicksand', sans-serif;
-        width: 100%;
+        width: 80%;
+        font-size: 13px;
         position: static;
         align-self: center;
         margin: 5%;
