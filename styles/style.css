@@ -5,6 +5,7 @@
 
 #weGroceryPic {
     height: 435px;
+    margin: 15px;
 }
 
 #navbar {}
@@ -20,13 +21,14 @@
     font-size: 25px;
     margin: 1%;
     min-height: 65px;
+    box-shadow: 5px 5px 2.5px #888888;
+    background-color: rgb(187, 220, 230)
 }
 
 .subHead3 {
     font-family: 'Quicksand', sans-serif;
     font-size: 25px;
     margin: 1%;
-    border: 2px solid black;
 }
 
 .md-button.subHead2 {
@@ -72,6 +74,7 @@ body {
     }
     #weGroceryPic {
         height: 235px;
+        margin: 10px
     }
     .md-button.subHead2 {
         font-family: 'Quicksand', sans-serif;
