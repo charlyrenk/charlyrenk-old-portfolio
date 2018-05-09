@@ -62,7 +62,7 @@ md-dialog.projectDialog {
 body {
     max-width: 1200px;
     min-width: 1000px;
-    margin: auto;
+    margin: auto!important;
 }
 
 @media (max-width: 500px) {
