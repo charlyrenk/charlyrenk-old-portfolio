@@ -71,9 +71,7 @@ body {
         max-width: 400px;
         min-width: 200px;
     }
-    #charlyPic {
-        width: 210px;
-    }
+
     #weGroceryPic {
         height: 235px;
         margin: 10px
@@ -84,6 +82,9 @@ body {
         margin: 1%;
         text-transform: none;
         min-height: 74px;
+    }
+    .subHead1{
+        font-size: 30px;
     }
     .subHead3 {
         font-family: 'Quicksand', sans-serif;
@@ -101,8 +102,8 @@ body {
         align-self: center;
         margin: 5%;
     }
-    .md-button.mobileView{
-        font-size: 10px;
+    .md-button{
+        font-size: 10px!important;
     }
   
 }
