@@ -7,6 +7,16 @@
         #myCarousel{
             text-align: center;
             width: fit-content;
+            min-width: 600px;
+        }
+        .imageCarousel{
+            margin: auto;
+        }
+        .carousel-control{
+            background-image: none!important;
+        }
+        .glyphicon{
+            color:rgb(187, 220, 230);
         }
     </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -26,14 +36,12 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
                 <div class="item active">
+                    <div class="buttonDiv"><md-button class="projectButton subHead2" ng-click="pc.showDialog($event)">WeGrocery</md-button></div>
                     <img class="imageCarousel" src="assets/Belwin.png" alt="">
                 </div>
 
                 <div class="item">
-                    <img class="imageCarousel" src="assets/charlyrenk-tuba.png" alt="">
-                </div>
-
-                <div class="item">
+                        <div class="buttonDiv"><md-button class="projectButton subHead2" ng-click="pc.showBelwin($event)">Belwin <br> Outdoor Science</md-button></div>
                     <img class="imageCarousel" src="assets/WeGrocery.png" alt="">
                 </div>
             </div>
