@@ -3,7 +3,7 @@
     margin: 40px;
 }
 
-#weGroceryPic {
+.projectPic {
     height: 435px;
     margin: 15px;
 }
@@ -79,7 +79,7 @@ body {
         min-width: 200px;
     }
 
-    #weGroceryPic {
+    .projectPic {
         height: 235px;
         margin: 10px
     }
