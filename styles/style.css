@@ -83,8 +83,8 @@ body {
     margin: auto;
 }
 
-/* forr carousel */
-.myCarousel {
+
+#myCarousel {
     text-align: center;
     width: fit-content;
     min-width: 600px;
