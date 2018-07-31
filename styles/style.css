@@ -96,14 +96,15 @@ body {
 
     .md-button.subHead2 {
         font-family: 'Quicksand', sans-serif;
-        font-size: 22px;
+        font-size: 22px!important;
         margin-bottom: 1em;
         text-transform: none;
-        min-height: 40px;
+        min-height: 65px;
         line-height: 1.5em;
     }
     .subHead1{
-        font-size: 30px;
+        font-size: 35px;
+        margin-bottom: 1em;
     }
     .subHead3 {
         font-family: 'Quicksand', sans-serif;
