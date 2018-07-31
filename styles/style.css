@@ -6,6 +6,9 @@
 .projectPic {
     width: 100%
 }
+.pageContainer{
+    background-color: white;
+}
 
 #navbar {}
 
@@ -69,6 +72,9 @@ body {
     margin: auto;
     width: 100%;
     margin-bottom: 1em;
+}
+.projectDiv{
+    margin: auto;
 }
 
 @media (max-width: 850px) {
