@@ -1,5 +1,6 @@
 html{
     height: initial!important;
+    background-color: white;
 }
 #charlyPic {
     width: 80%;
@@ -144,6 +145,12 @@ body {
     }
     .md-button{
         font-size: 10px!important;
+    }
+    #myCarousel {
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        min-width: unset;
     }
   
 }
