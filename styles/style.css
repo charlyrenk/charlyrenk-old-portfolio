@@ -1,6 +1,7 @@
 #charlyPic {
     width: 80%;
-    margin: 40px;
+    margin-top: -7em;
+    margin-bottom: 2em;
 }
 
 .projectPic {
@@ -89,6 +90,7 @@ body {
     #charlyPic {
         width: 100%;
         margin: 0px;
+        margin-top: -2em;
     }
 
 
