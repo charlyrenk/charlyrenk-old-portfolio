@@ -62,8 +62,8 @@ md-dialog.projectDialog {
     width: 80%;
 }
 
-body.ng-scope.md-dialog-is-showing{
-    position: relative!important;
+/* body.ng-scope.md-dialog-is-showing{
+    position: relative!important; */
 }
 
 body {
