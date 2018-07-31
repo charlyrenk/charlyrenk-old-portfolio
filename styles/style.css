@@ -61,6 +61,10 @@ md-dialog.projectDialog {
     width: 80%;
 }
 
+body.ng-scope.md-dialog-is-showing{
+    position: relative!important;
+}
+
 body {
     max-width: 1200px;
     min-width: 1000px;
