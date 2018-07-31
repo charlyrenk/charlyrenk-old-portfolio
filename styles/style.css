@@ -4,8 +4,7 @@
 }
 
 .projectPic {
-    height: 435px;
-    margin: 15px;
+    width: 100%
 }
 
 #navbar {}
@@ -54,9 +53,6 @@
     margin: auto;
 }
 
-.projectDiv {
-    margin: 20px
-}
 
 md-dialog.projectDialog {
     width: 80%;
@@ -84,16 +80,14 @@ body {
         margin: 0px;
     }
 
-    .projectPic {
-        height: 235px;
-        margin: 10px
-    }
+
     .md-button.subHead2 {
         font-family: 'Quicksand', sans-serif;
         font-size: 22px;
-        margin: 1%;
+        margin-bottom: 1em;
         text-transform: none;
-        min-height: 74px;
+        min-height: 40px;
+        line-height: 1.5em;
     }
     .subHead1{
         font-size: 30px;
