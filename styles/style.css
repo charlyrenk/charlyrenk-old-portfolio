@@ -79,6 +79,10 @@ body {
         max-width: 400px;
         min-width: 200px;
     }
+    #charlyPic {
+        width: 100%;
+        margin: 0px;
+    }
 
     .projectPic {
         height: 235px;
