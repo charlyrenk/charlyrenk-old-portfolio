@@ -93,6 +93,7 @@ body {
 
 .imageCarousel {
     margin: auto;
+    max-height: 500px;
 }
 
 .carousel-control {
