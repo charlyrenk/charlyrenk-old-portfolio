@@ -70,7 +70,7 @@ md-dialog.projectDialog {
 
 body {
     max-width: 1200px;
-    min-width: 1000px;
+    width: 1000px;
     margin: auto!important;
     background-color: white!important;
 }
@@ -154,8 +154,7 @@ body {
         min-width: unset;
     }
     .imageCarousel{
-        width: 65%!important;
-        height: auto!important;
+       height: 400px!important;
     }
   
 }
