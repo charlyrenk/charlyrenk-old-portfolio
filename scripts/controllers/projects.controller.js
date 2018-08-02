@@ -21,13 +21,4 @@ myApp.controller('ProjectController', ['$mdDialog', '$mdSidenav', '$location', f
             clickOutsideToClose: true
         })
     }
-    vm.showDeadpool = function ($event) {
-        $mdDialog.show({
-            targetEvent: $event,
-            controller: 'ProjectController',
-            controllerAs: 'sc',
-            templateUrl: 'deadpool.html',
-            clickOutsideToClose: true
-        })
-    }
 }]);
