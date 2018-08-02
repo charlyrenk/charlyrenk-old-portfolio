@@ -15,6 +15,13 @@ html{
     background-color: white;
 }
 
+.carousel-indicators li{
+    border: 1px solid #000!important;
+}
+
+.carousel-indicators .active{
+    background-color: rgb(187, 220, 230)!important;
+}
 
 
 .subHead1 {
