@@ -4,8 +4,6 @@ myApp.controller('ProjectController', ['$mdDialog', '$mdSidenav', '$location', f
     var vm = this;
 
     vm.showDialog = function ($event) {
-        console.log('$event:', $event);
-        // vm.currentSpecimenQuestions (assign questions based on species element clicked)
         $mdDialog.show({
             targetEvent: $event,
             controller: 'ProjectController',
@@ -15,13 +13,20 @@ myApp.controller('ProjectController', ['$mdDialog', '$mdSidenav', '$location', f
         })
     }
     vm.showBelwin = function ($event) {
-        console.log('$event:', $event);
-        // vm.currentSpecimenQuestions (assign questions based on species element clicked)
         $mdDialog.show({
             targetEvent: $event,
             controller: 'ProjectController',
             controllerAs: 'sc',
             templateUrl: 'belwin.html',
+            clickOutsideToClose: true
+        })
+    }
+    vm.showDeadpool = function ($event) {
+        $mdDialog.show({
+            targetEvent: $event,
+            controller: 'ProjectController',
+            controllerAs: 'sc',
+            templateUrl: 'deadpool.html',
             clickOutsideToClose: true
         })
     }
