@@ -3,8 +3,8 @@ html{
     background-color: white;
 }
 #charlyPic {
-    width: 80%;
-    margin-top: -7em;
+    width: 50%;
+    margin-top: -2em;
     margin-bottom: 2em;
 }
 
@@ -129,7 +129,7 @@ body {
         min-width: 200px;
     }
     #charlyPic {
-        width: 100%;
+        width: 90%;
         margin: 0px;
         margin-top: -2em;
     }
