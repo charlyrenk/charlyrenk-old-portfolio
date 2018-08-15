@@ -31,6 +31,15 @@ html{
     margin: 2%;
 }
 
+.subHead1 h1{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 38px!important;
+    font-weight: normal!important;
+    margin: 2%;
+    z-index: 1000;
+}
+
 .subHead2 {
     font-family: 'Quicksand', sans-serif;
     font-size: 25px;
