@@ -95,7 +95,7 @@ body {
 #myCarousel {
     text-align: center;
     width: fit-content;
-    min-width: 600px;
+    min-width: 630px;
 }
 
 .imageCarousel {
@@ -105,11 +105,14 @@ body {
 
 .carousel-control {
     background-image: none !important;
+    opacity: 0.75!important;
 }
 
 .glyphicon {
     color: rgb(187, 220, 230);
 }
+
+
 
 @media (max-width: 850px) {
     body {
