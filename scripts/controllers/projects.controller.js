@@ -1,16 +1,16 @@
-myApp.controller('ProjectController', ['$mdDialog', '$mdSidenav', '$location', function ($mdDialog, $mdSidenav, $location) {
-    console.log('StudentController Loaded');
+myApp.controller('ProjectController', ['$mdDialog', function ($mdDialog) {
+    console.log('ProjectController Loaded');
 
     var vm = this;
 
-    vm.showDialog = function ($event) {
+    vm.showWeGrocery = function ($event) {
         $mdDialog.show({
             targetEvent: $event,
             controller: 'ProjectController',
             controllerAs: 'sc',
             templateUrl: 'we-grocery.html',
             clickOutsideToClose: true
-        })
+        });
     }
     vm.showBelwin = function ($event) {
         $mdDialog.show({
@@ -30,4 +30,14 @@ myApp.controller('ProjectController', ['$mdDialog', '$mdSidenav', '$location', f
             clickOutsideToClose: true
         })
     }
+    vm.showBbpEmail = function ($event) {
+        $mdDialog.show({
+            targetEvent: $event,
+            controller: 'ProjectController',
+            controllerAs: 'sc',
+            templateUrl: 'bbp-emails.html',
+            clickOutsideToClose: true
+        })
+    }
+    
 }]);
