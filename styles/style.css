@@ -173,7 +173,7 @@ body {
         text-align: center;
         width: 90%;
         margin: auto;
-        min-width: unset;
+        min-width: 330px;
     }
     .imageCarousel{
        height: 400px!important;
