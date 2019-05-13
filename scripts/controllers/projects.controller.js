@@ -3,6 +3,10 @@ myApp.controller('ProjectController', ['$mdDialog', function ($mdDialog) {
 
     var vm = this;
 
+    vm.cancel = function() {
+        $mdDialog.cancel();
+    };
+    
     vm.showWeGrocery = function ($event) {
         $mdDialog.show({
             targetEvent: $event,
