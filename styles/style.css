@@ -23,6 +23,9 @@ html{
     background-color: rgb(187, 220, 230)!important;
 }
 
+.closeButton{
+    left: 40%;
+}
 
 .subHead1 {
     text-align: center;
@@ -170,7 +173,7 @@ body {
         text-align: center;
         width: 90%;
         margin: auto;
-        min-width: 330px;
+        min-width: unset;
     }
     .imageCarousel{
        height: 400px!important;
