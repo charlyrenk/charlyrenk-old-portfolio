@@ -11,7 +11,7 @@ myApp.controller('ProjectController', ['$mdDialog', function ($mdDialog) {
         $mdDialog.show({
             targetEvent: $event,
             controller: 'ProjectController',
-            controllerAs: 'sc',
+            controllerAs: 'pc',
             templateUrl: 'we-grocery.html',
             clickOutsideToClose: true
         });
@@ -20,7 +20,7 @@ myApp.controller('ProjectController', ['$mdDialog', function ($mdDialog) {
         $mdDialog.show({
             targetEvent: $event,
             controller: 'ProjectController',
-            controllerAs: 'sc',
+            controllerAs: 'pc',
             templateUrl: 'belwin.html',
             clickOutsideToClose: true
         })
@@ -29,7 +29,7 @@ myApp.controller('ProjectController', ['$mdDialog', function ($mdDialog) {
         $mdDialog.show({
             targetEvent: $event,
             controller: 'ProjectController',
-            controllerAs: 'sc',
+            controllerAs: 'pc',
             templateUrl: 'deadpool.html',
             clickOutsideToClose: true
         })
@@ -38,7 +38,7 @@ myApp.controller('ProjectController', ['$mdDialog', function ($mdDialog) {
         $mdDialog.show({
             targetEvent: $event,
             controller: 'ProjectController',
-            controllerAs: 'sc',
+            controllerAs: 'pc',
             templateUrl: 'bbp-emails.html',
             clickOutsideToClose: true
         })
