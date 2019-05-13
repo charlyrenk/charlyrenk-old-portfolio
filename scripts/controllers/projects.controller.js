@@ -4,6 +4,7 @@ myApp.controller('ProjectController', ['$mdDialog', function ($mdDialog) {
     var vm = this;
 
     vm.cancel = function() {
+        console.log('Dialog close clicked!')
         $mdDialog.cancel();
     };
     
