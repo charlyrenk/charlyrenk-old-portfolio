@@ -147,7 +147,7 @@ body {
         line-height: 1.5em;
     }
     .subHead1{
-        font-size: 35px;
+        font-size: 24px;
         margin-bottom: 1em;
     }
     .subHead3 {
@@ -161,7 +161,7 @@ body {
     .homeParagraph {
         font-family: 'Quicksand', sans-serif;
         width: 90%;
-        font-size: 13px;
+        font-size: 16px;
         position: static;
         align-self: center;
         margin: 5%;
