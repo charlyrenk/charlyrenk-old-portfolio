@@ -128,7 +128,7 @@ body {
 
 @media (max-width: 850px) {
     body {
-        max-width: 320px;
+        max-width: 400px;
         min-width: 200px;
     }
     #charlyPic {
