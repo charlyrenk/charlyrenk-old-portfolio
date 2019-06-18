@@ -24,7 +24,7 @@ html{
 }
 
 .closeButton{
-    left: 0%;
+    left: 40%;
 }
 
 .subHead1 {
@@ -161,7 +161,7 @@ body {
     
     md-dialog-container {
         height: 100% !important;
-        position: fixed !important;
+        position: relative !important;
         top: 0px !important;
     }
 
