@@ -24,7 +24,7 @@ html{
 }
 
 .closeButton{
-    left: 30%;
+    left: 0%;
 }
 
 .subHead1 {
@@ -158,6 +158,13 @@ body {
     md-dialog.projectDialog {
         width: 100%;
     }
+    
+    md-dialog-container {
+        height: 100% !important;
+        position: fixed !important;
+        top: 0px !important;
+    }
+
     .homeParagraph {
         font-family: 'Quicksand', sans-serif;
         width: 90%;
