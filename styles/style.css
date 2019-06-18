@@ -91,6 +91,7 @@ body {
     max-width: 1200px;
     width: 1000px;
     margin: auto!important;
+    position: relative !important;
     background-color: white!important;
 }
 .buttonDiv{
