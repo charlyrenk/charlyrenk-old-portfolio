@@ -1,26 +1,26 @@
-{
-  "name": "charles_renk_personal_website",
-  "version": "1.0.0",
-  "description": "charlesrenk.com",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/charlyrenk/Charles_Renk_Personal_Website.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/charlyrenk/Charles_Renk_Personal_Website/issues"
-  },
-  "homepage": "https://github.com/charlyrenk/Charles_Renk_Personal_Website#readme",
-  "dependencies": {
-    "angular": "^1.6.6",
-    "angular-material": "^1.1.5",
-    "angular-route": "^1.6.6",
-    "express": "^4.16.2"
-  },
-  "devDependencies": {}
-}
+// {
+//   "name": "charles_renk_personal_website",
+//   "version": "1.0.0",
+//   "description": "charlesrenk.com",
+//   "main": "index.js",
+//   "scripts": {
+//     "test": "echo \"Error: no test specified\" && exit 1"
+//   },
+//   "repository": {
+//     "type": "git",
+//     "url": "git+https://github.com/charlyrenk/Charles_Renk_Personal_Website.git"
+//   },
+//   "author": "",
+//   "license": "ISC",
+//   "bugs": {
+//     "url": "https://github.com/charlyrenk/Charles_Renk_Personal_Website/issues"
+//   },
+//   "homepage": "https://github.com/charlyrenk/Charles_Renk_Personal_Website#readme",
+//   "dependencies": {
+//     "angular": "^1.6.6",
+//     "angular-material": "^1.1.5",
+//     "angular-route": "^1.6.6",
+//     "express": "^4.16.2"
+//   },
+//   "devDependencies": {}
+// }
